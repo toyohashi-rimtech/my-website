@@ -144,6 +144,31 @@
             color: #e0e0e0;
         }
 
+        .table-container {
+            overflow-x: auto; /* 横スクロールを有効にする */
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed; /* セルのサイズを均等にする */
+        }
+
+        th, td {
+            padding: 8px 0;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        td {
+            background-color: #fafafa;
+        }
+
         @media (max-width: 768px) {
             .learning-style-container {
                 flex-direction: column;
@@ -179,7 +204,7 @@
     <section id="curriculum" class="section" style="background: linear-gradient(to right, #f5f7fa, #c3cfe2); border-radius: 20px;">
         <h2 style="text-align: center; color: #333;">カリキュラム</h2>
     
-        <p style="text-align: center; font-size: 1.2em; margin-bottom: 40px; color: #444;">
+        <p style="text-align: center; margin-bottom: 40px; color: #444;">
             すぐに実務レベルの"本物"のプログラミングに触れられるのはここ豊橋リムテックだけ！<br>
             一人ひとりの目的やスキルに合わせて、柔軟にカスタマイズ！<br>
             初心者から経験者まで、自分のペースで確実にスキルアップ。
@@ -262,11 +287,11 @@
     <section id="faq" class="section">
         <h2>よくあるご質問</h2>
         <p><strong>Q. 学習する種目は選べますか？</strong><br>
-        A. 「HTML、CSS、JavaScript」、「Excel、ExcelVBA」、「GoogleAppScript」の３種の中からお選びいただけます。</p>
+        A. 「HTML、CSS、JavaScript」、「Excel、ExcelVBA、GoogleAppScript」の２種の中からお選びいただけます。</p>
         <p><strong>Q. 対象年齢はいくつですか？</strong><br>
             A. 中学１年生以上の方を推奨しております。</p>
         <p><strong>Q. 教室はいつ開催されていますか？</strong><br>
-        A. 下記、「空室状況」をご確認ください。「〇」の時刻は空いております。</p>
+        A. 「<a href="#vacancies">空室状況</a>」をご確認ください。「〇」の時刻は空いております。</p>
         <p><strong>Q. 宿題はありますか？</strong><br>
         A. 宿題はございません。スクール時間外での自学自習は各自行っていただいて問題ありません。</p>
         <p><strong>Q. 何か資格は取れますか？</strong><br>
@@ -278,11 +303,135 @@
         <p><strong>Q. 授業をお休みした場合、振替できますか？</strong><br>
         A. 振替可能です。 ご都合がつかず授業を欠席された場合、他曜日・他教室での振替授業、あるいは補講の対応が可能です。</p>
         <p><strong>Q. いつでも入会できますか？</strong><br>
-        A. 個別学習は随時ご入会いただけます。 グループ学習は3名以上の人数が集まり次第、随時開講しています。</p>
+        A. 個別学習は随時ご入会いただけます。 グループ学習は3名以上の人数が集まり次第、随時開講しています。詳しくはお問い合わせください。</p>
         <p><strong>Q. 事前見学や体験会はありますか？</strong><br>
         A. オンライン個別学習式で60分の無料体験をご用意しております。</p>
         
     </section>
+
+    <section id="vacancies" class="section">
+        <h2>空室状況</h2>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>時間/曜日</th>
+                <th>月</th>
+                <th>火</th>
+                <th>水</th>
+                <th>木</th>
+                <th>金</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>9:00</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+              </tr>
+              <tr>
+                <td>10:00</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+              </tr>
+              <tr>
+                <td>11:00</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+              </tr>
+              <tr>
+                <td>12:00</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+              </tr>
+              <tr>
+                <td>13:00</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+              </tr>
+              <tr>
+                <td>14:00</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+              </tr>
+              <tr>
+                <td>15:00</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+              </tr>
+              <tr>
+                <td>16:00</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+              </tr>
+              <tr>
+                <td>17:00</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+              </tr>
+              <tr>
+                <td>18:00</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+              </tr>
+              <tr>
+                <td>19:00</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+              </tr>
+              <tr>
+                <td>20:00</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+              </tr>
+              <tr>
+                <td>21:00</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+                <td>〇</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
     <footer style="background: linear-gradient(135deg, #444, #222); color: #fff; padding: 40px 20px; text-align: center;">
         <h3 style="font-size: 1.5em; margin-bottom: 20px;">ご質問・ご相談はお気軽に</h3>
