@@ -172,6 +172,15 @@
             background-color: #fafafa;
         }
 
+        .price{
+            text-decoration: line-through;
+        }
+
+        .new-price {
+            color: red;
+            margin-left: 3px;
+        }
+
         @media (max-width: 768px) {
             .learning-style-container {
                 flex-direction: column;
@@ -281,9 +290,11 @@
     <section id="pricing" class="section">
         <h2>料金体系</h2>
         <p>リムテックの料金体系はシンプルです。</p>
+        <h3 style="color: red;">あなたの第一歩を応援します。今なら開講記念で受講料50％OFF！<br></h3>
+
         <ul>
-            <li>オンライングループ学習：3,500円 / 60分（1レッスン） 月4回</li>
-            <li><span style="margin-right: 31px;">オンライン個別学習</span>：5,000円 / 60分（1レッスン） 月4回</li>
+            <li>オンライングループ学習：<span class="price">3,500円</span><strong class="new-price">1700円！</strong> / 60分（1レッスン） 月4回</li>
+            <li><span style="margin-right: 31px;">オンライン個別学習</span>：<span class="price">5,000円</span><strong class="new-price">2500円！</strong> / 60分（1レッスン） 月4回</li>
         </ul>
     </section>
     
