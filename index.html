@@ -190,6 +190,29 @@
             margin-left: 3px;
         }
 
+        h3 {
+            display: inline-block;
+            margin: 0;
+        }
+
+        .contact-button {
+            background: linear-gradient(135deg, #6fb1fc, #4364f7);
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .contact-button:hover {
+            background: linear-gradient(135deg, #4364f7, #6fb1fc);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
         @media (max-width: 768px) {
             .learning-style-container {
                 flex-direction: column;
@@ -200,6 +223,10 @@
         @media screen and (min-width: 1px) and (max-width: 470px) {
             .learning-style-li {
                 width: 90%;
+            }
+            .nav a {
+                margin: 0 15px;
+                font-size: 2.5vw;
             }
         }
 
@@ -214,7 +241,9 @@
 <body>
     <header class="header">
         <div class="logo">豊橋プログラミングスクール リムテック</div>
-        <div class="contact">ご相談・お問い合わせ：090-6952-2655</div>
+        <div class="contact">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdO_1yaOt8v8Raa87Mshj8YdOhM_HKoK9yAqtWj3667sHTJng/viewform?usp=dialog" class="contact-button">メールでお問い合わせ</a>
+        </div>
     </header>
     <nav class="nav">
         <a href="#curriculum">カリキュラム</a>
